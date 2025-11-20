@@ -1,0 +1,19 @@
+# Kubernetes secrets
+*-secret.yaml
+*-env.yaml
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Kube configs (contains sensitive tokens)
+kubeconfig/
+*.kubeconfig
+
+# Backup files
+*.bak
+*.backup
